@@ -21,3 +21,4 @@ Remo Health Take home Assessment
 cd environments/staging
 terraform init
 terraform plan -out plan.out -var="project_id=YOUR_GCP_PROJECT" -var="region=us-central1" -var="zone=us-central1-a"
+
